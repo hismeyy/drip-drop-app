@@ -1,8 +1,8 @@
 import {useState} from "react";
 import {invoke} from "@tauri-apps/api/core";
 import "./App.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHandPaper } from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faHome, faCog} from '@fortawesome/free-solid-svg-icons'
 
 
 function App() {
@@ -17,25 +17,16 @@ function App() {
 
     return (
         <main className="container">
-            <div id="main">
-                <div className="block">
-                    <div id="tip" className="box">
-                        <span className="title">早上好! <FontAwesomeIcon icon={faHandPaper} /> MaxCosmos</span>
-
-                        <div className="line"></div>
-                        <div className="txt">斜阳外，寒鸦万点，流水绕孤村。</div>
-                    </div>
+            <div className="menu-box">
+                <div className="logo">
+                    <h1>drip-drop</h1>
                 </div>
-                <div className="block">
-                    <div id="remind" className="box"></div>
-                </div>
-                <div className="block">
-                    <div id="count" className="box"></div>
-                </div>
-                <div className="block">
-                    <div id="statistics" className="box"></div>
-                </div>
+                <ul className="menu">
+                    <li><FontAwesomeIcon icon={faHome}/>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主页</li>
+                    <li><FontAwesomeIcon icon={faCog}/>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 设置</li>
+                </ul>
             </div>
+            <div className="box"></div>
         </main>
     );
 }
