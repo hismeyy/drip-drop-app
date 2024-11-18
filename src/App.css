@@ -35,7 +35,7 @@ ul, li {
 
 .menu-box {
     height: 100%;
-    width: 300px;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,10 +43,13 @@ ul, li {
 
 .box {
     height: 100%;
-    width: 100%;
+    width: 80%;
     background-color: #E9F3FF;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
@@ -69,4 +72,50 @@ ul, li {
     cursor: pointer;
 }
 
+.module {
+    width: 90%;
+    height: 85vh;
+}
+
+.module .hello {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.function{
+    margin-top: 52px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-function {
+    height: 758px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.function1{
+    width: 100%;
+    height: 279px;
+    background-color: #41C88E;
+    border-radius: 25px;
+}
+
+.function2{
+    width: 100%;
+    height: 419px;
+    background-color: #FDBE6C;
+    border-radius: 25px;
+
+}
+
+.function3{
+    width: 400px;
+    height: 758px;
+    background-color: #75B9F2;
+    border-radius: 25px;
+}
 

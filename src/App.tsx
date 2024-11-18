@@ -26,7 +26,21 @@ function App() {
                     <li><FontAwesomeIcon icon={faCog}/>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 设置</li>
                 </ul>
             </div>
-            <div className="box"></div>
+            <div className="box">
+
+                <div className="module">
+                    <div className="hello">
+                        早上好！MaxCosmos
+                    </div>
+                    <div className="function">
+                        <div className="left-function">
+                            <div className="function1"></div>
+                            <div className="function2"></div>
+                        </div>
+                        <div className="function3"></div>
+                    </div>
+                </div>
+            </div>
         </main>
     );
 }
