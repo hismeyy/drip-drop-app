@@ -143,5 +143,38 @@ ul, li {
     height: 758px;
     background-color: #75B9F2;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FCFEFD;
 }
+
+.function3 .count {
+    font-weight: bold;
+    font-size: 120px;
+    margin-top: 110px;
+
+}
+
+.function3 .water {
+    margin-top: 90px;
+    width: 260px;
+    height: 320px;
+    background-color: #FCFEFD;
+    border-radius: 50%;
+}
+
+.function3 .button {
+    width: 230px;
+    height: 70px;
+    background-color: #41C88E;
+    margin-top: 60px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
 

@@ -75,35 +75,47 @@ function App() {
                             <div className="function2">
                                 <div className="function2-char">
                                     <ResponsiveContainer width="100%" height="100%"
-                                                     style={{backgroundColor: '#FDBE6C'}}>
-                                    <BarChart
-                                        width={500}
-                                        height={300}
-                                        data={data}
-                                        margin={{
-                                            top: 5,
-                                            right: 30,
-                                            left: 20,
-                                            bottom: 5,
-                                        }}
-                                        barSize={20}
-                                    >
-                                        <XAxis dataKey="name" scale="point" padding={{left: 10, right: 10}}
-                                               stroke="#FFFFFF"/>
-                                        <YAxis stroke="#FFFFFF"/>
-                                        <Tooltip contentStyle={{color: '#FFFFFF'}}/>
-                                        <Legend
-                                            formatter={(value) => `喝水次数`}
-                                            wrapperStyle={{color: '#FFFFFF'}}
-                                        />
-                                        <CartesianGrid strokeDasharray="5 5" stroke="#FFFFFF"/>
-                                        <Bar dataKey="waterCount" fill="#7e6bc4" background={{fill: '#FDBE6C'}}/>
-                                    </BarChart>
-                                </ResponsiveContainer>
+                                                         style={{backgroundColor: '#FDBE6C'}}>
+                                        <BarChart
+                                            width={500}
+                                            height={300}
+                                            data={data}
+                                            margin={{
+                                                top: 5,
+                                                right: 30,
+                                                left: 20,
+                                                bottom: 5,
+                                            }}
+                                            barSize={20}
+                                        >
+                                            <XAxis dataKey="name" scale="point" padding={{left: 10, right: 10}}
+                                                   stroke="#FFFFFF"/>
+                                            <YAxis stroke="#FFFFFF"/>
+                                            <Tooltip contentStyle={{color: '#FFFFFF'}}/>
+                                            <Legend
+                                                formatter={(value) => `喝水次数`}
+                                                wrapperStyle={{color: '#FFFFFF'}}
+                                            />
+                                            <CartesianGrid strokeDasharray="5 5" stroke="#FFFFFF"/>
+                                            <Bar dataKey="waterCount" fill="#7e6bc4" background={{fill: '#FDBE6C'}}/>
+                                        </BarChart>
+                                    </ResponsiveContainer>
                                 </div>
                             </div>
                         </div>
-                        <div className="function3"></div>
+                        <div className="function3">
+                            <div>
+                                <div className="count">2/8</div>
+                            </div>
+                            <div>
+                                <div className="water"></div>
+                            </div>
+                            <div>
+                                <div className="button">
+                                    喝水打卡
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
