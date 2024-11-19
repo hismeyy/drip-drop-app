@@ -34,7 +34,11 @@ function App() {
                     </div>
                     <div className="function">
                         <div className="left-function">
-                            <div className="function1"></div>
+                            <div className="function1">
+                                <div className="time-title">距离下次喝水时间还剩：</div>
+                                <div className="time">01:59:35</div>
+                                <div className="tip">保持饮水习惯，让你一整天都充满活力！</div>
+                            </div>
                             <div className="function2"></div>
                         </div>
                         <div className="function3"></div>
