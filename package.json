@@ -19,7 +19,8 @@
     "@tauri-apps/plugin-shell": "^2",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "recharts": "^2.13.3"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2",

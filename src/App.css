@@ -132,6 +132,12 @@ ul, li {
 
 }
 
+.function2 .function2-char {
+    margin-top: 40px;
+    width: 95%;
+    height: 362px;
+}
+
 .function3 {
     width: 400px;
     height: 758px;
