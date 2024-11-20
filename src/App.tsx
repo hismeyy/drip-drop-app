@@ -50,6 +50,7 @@ function App() {
 
     return (
         <main className="container">
+
             <div className="menu-box">
                 <div className="logo">
                     <h1>drip-drop</h1>
@@ -59,6 +60,7 @@ function App() {
                     <li><FontAwesomeIcon icon={faCog}/>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 设置</li>
                 </ul>
             </div>
+
             <div className="box">
 
                 <div className="module">
