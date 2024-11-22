@@ -1,10 +1,10 @@
 import {useState} from "react";
 import {invoke} from "@tauri-apps/api/core";
 import "./App.css";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faHome, faCog} from '@fortawesome/free-solid-svg-icons'
+
 import React, {PureComponent} from 'react';
 import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer} from 'recharts';
+import Menu from "./compont/menu/Menu.tsx";
 
 
 function App() {
@@ -50,19 +50,8 @@ function App() {
 
     return (
         <main className="container">
-
-            <div className="menu-box">
-                <div className="logo">
-                    <h1>drip-drop</h1>
-                </div>
-                <ul className="menu">
-                    <li><FontAwesomeIcon icon={faHome}/>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主页</li>
-                    <li><FontAwesomeIcon icon={faCog}/>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 设置</li>
-                </ul>
-            </div>
-
+            <Menu/>
             <div className="box">
-
                 <div className="module">
                     <div className="hello">
                         早上好！MaxCosmos
