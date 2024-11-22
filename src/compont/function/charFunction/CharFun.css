@@ -1,0 +1,14 @@
+.function2 {
+    width: 100%;
+    height: 40vh;
+    background-color: #FDBE6C;
+    border-radius: 2.5vh;
+
+}
+
+.function2 .function2-char {
+    margin-top: 7vh;
+    margin-left: 1.4vw;
+    width: 35vw;
+    height: 30vh;
+}

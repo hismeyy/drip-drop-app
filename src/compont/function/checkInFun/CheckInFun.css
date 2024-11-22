@@ -1,0 +1,38 @@
+.function3 {
+    width: 25vw;
+    height: 75vh;
+    background-color: #75B9F2;
+    border-radius: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FCFEFD;
+}
+
+.function3 .count {
+    font-weight: bold;
+    font-size: 12vh;
+    margin-top: 11vh;
+
+}
+
+.function3 .water {
+    margin-top: 9vh;
+    width: 16vw;
+    height: 35vh;
+    background-color: #FCFEFD;
+    border-radius: 50%;
+}
+
+.function3 .button {
+    width: 12vw;
+    height: 6vh;
+    background-color: #41C88E;
+    margin-top: 6vh;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    cursor: pointer;
+}

@@ -2,7 +2,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faHome, faCog} from '@fortawesome/free-solid-svg-icons';
 import "./Menu.css";
 
-function Menu() {
+export function Menu() {
     const appTitle = "drip-drop";
     const menuList = [
         {icon: faHome, title: "主页"},
@@ -27,4 +27,3 @@ function Menu() {
     );
 }
 
-export default Menu;

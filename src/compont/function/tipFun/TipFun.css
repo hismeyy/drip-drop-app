@@ -1,0 +1,25 @@
+.function1 {
+    width: 100%;
+    height: 28vh;
+    background-color: #41C88E;
+    border-radius: 2.5vh;
+    color: #FCFEFD;
+    padding-top: 5vh;
+    padding-left: 5vw;
+}
+
+.function1 .time-title {
+    font-size: 3vh;
+}
+
+.function1 .time {
+    font-weight: bold;
+    font-size: 10vh;
+    margin-top: 7vh;
+}
+
+.function1 .tip {
+    font-size: 2vh;
+    margin-top: 7vh;
+
+}

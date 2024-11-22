@@ -1,0 +1,21 @@
+.module {
+    width: 70vw;
+    height: 80vh;
+}
+
+.function {
+    margin-top: 8vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-function {
+    height: 75vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}

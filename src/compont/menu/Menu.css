@@ -6,17 +6,6 @@
     align-items: center;
 }
 
-.box {
-    height: 100vh;
-    width: 80vw;
-    background-color: #E9F3FF;
-    border-top-left-radius: 3vh;
-    border-bottom-left-radius: 3vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .logo {
     margin-top: 7vh;
     margin-bottom: 5vh;
